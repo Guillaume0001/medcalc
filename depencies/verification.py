@@ -35,6 +35,7 @@ def main():
     
     with open(main_file, 'r') as main_file:
         local_file = main_file.read().strip()
+        print(local_file)
     
     if local_file != online_file:
         print(f"Erreur ! L'intégrité du logiciel est modifié...")
@@ -53,6 +54,7 @@ def depencies():
     
     with open(path_depencies, 'r') as depencies_file:
         local_file = depencies_file.read().strip()
+        print(local_file)
     
     if local_file != online_file:
         print(f"Erreur ! L'intégrité du logiciel est modifié...")
@@ -70,6 +72,7 @@ def depencies():
     
     with open(path_depencies, 'r') as depencies_file:
         local_file = depencies_file.read().strip()
+        print(local_file)
     
     if local_file != online_file:
         print(f"Erreur ! L'intégrité du logiciel est modifié...")
@@ -87,6 +90,7 @@ def depencies():
     
     with open(path_depencies, 'r') as depencies_file:
         local_file = depencies_file.read().strip()
+        print(local_file)
     
     if local_file != online_file:
         print(f"Erreur ! L'intégrité du logiciel est modifié...")
